@@ -1290,7 +1290,7 @@ namespace larionov_lab_5_one_dimensional_arrays_1
             bool isGo = true;
             while (isGo)  ////Цикл с предусловием
             {
-                Console.WriteLine("Ларионов Никита Юрьевич. гр. 110з\n");
+                Console.WriteLine("\nЛарионов Никита Юрьевич. гр. 110з\n");
 
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Лабораторная работа №5. Одномерный массив.\n");
