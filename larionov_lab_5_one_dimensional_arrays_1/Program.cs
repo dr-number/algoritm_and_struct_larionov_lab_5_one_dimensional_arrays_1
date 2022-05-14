@@ -618,11 +618,8 @@ namespace larionov_lab_5_one_dimensional_arrays_1
         public void init()
         {
 
-            Console.WriteLine("\nВ одномерном массиве:\0");
-            Console.WriteLine("1) Вычислить минимальный элемент массива\0");
-            Console.WriteLine("2) Сумму элементов массива расположенных между первым и последним положительными элементами\0");
-            Console.WriteLine("3) Преобразовать массив таким образом, чтобы сначала располагались все элементы равные нулю, а потом все остальные\n");
-
+            Console.WriteLine(TasksInfo.TASK_6_1);
+            
             MyArray myArray = new MyArray();
             int[] array = myArray.createArray();
 
@@ -772,12 +769,7 @@ namespace larionov_lab_5_one_dimensional_arrays_1
 
         public void init()
         {
-            Console.WriteLine("\nВ одномерном массиве:\0");
-            Console.WriteLine("1) Вычислить количество отрицательных элементов массива\0");
-            Console.WriteLine("2) Сумму модулей элементов массива расположенных после минимального по модулю элемента\0");
-            Console.WriteLine("3) Заменить все отрицательные элементы массива их квадратами\0");
-            Console.WriteLine("4) упорядочить элементы по возрастанию\n");
-
+            Console.WriteLine(TasksInfo.TASK_16_2);
 
             MyArray myArray = new MyArray();
             int[] array = myArray.createArray();
@@ -906,9 +898,7 @@ namespace larionov_lab_5_one_dimensional_arrays_1
 
         public void init()
         {
-            Console.WriteLine("\nВ матрице:");
-            Console.WriteLine("1) Определить сумму элементов массива в тех строках, которые содержат хотя бы один отрицательный элемент\0");
-            Console.WriteLine("2) Определить номера строк и столбцов всех следовых точек матрицы\n");
+            Console.WriteLine(TasksInfo.TASK_6_3);
 
             MyArray myArray = new MyArray();
             int[,] array = myArray.createTwoDimensionalArray();
@@ -1130,9 +1120,7 @@ namespace larionov_lab_5_one_dimensional_arrays_1
 
         public void init()
         {
-            Console.WriteLine("\nВ матрице:");
-            Console.WriteLine("1) Упорядочить строки целочисленной прямоугольной матрицы по возрастанию количества одинаковых элементов в каждой строке\0");
-            Console.WriteLine("2) Найти номер первого из столбцов, не содержащих ни одного отрицательного элемента\n");
+            Console.WriteLine(TasksInfo.TASK_16_4);
 
             MyArray myArray = new MyArray();
             int[,] array = myArray.createTwoDimensionalArray();
